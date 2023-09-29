@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.section1{
+    width: 50vw;
+    top: 50%;
+    margin: auto;
+}
+
+.left-container{
+    /* position: absolute; */
+    
+    top: 40%;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+.input1{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sign-in-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-buttons button{
+    font-size: 1.1em;
+    border: 1px solid #cbcce8;
+}
+
+.top{
+    margin: 15px 0;
+}
+
+.button1{
+    color: white;
+    background-color: #5429ff;
+}
+
+.button2{
+    background-color: white;
+    
+}
