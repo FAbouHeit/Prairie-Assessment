@@ -1,0 +1,16 @@
+1-      SELECT first_name, last_name, seniority_level FROM Mentors
+
+2-      SELECT first_name, last_name FROM Mentors
+        WHERE office_id = 333
+
+3-      SELECT first_name, last_name FROM Mentors
+        WHERE salary>1000
+
+4-      SELECT first_name, last_name, rank FROM Mentors
+        WHERE salary>1000
+
+5-      SELECT first_name, last_name FROM Mentors
+        WHERE department = SELECT mentor_id FROM department
+        WHERE topic_speciality = English & Life Skills
+
+
